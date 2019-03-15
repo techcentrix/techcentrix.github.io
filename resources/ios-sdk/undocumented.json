@@ -1,0 +1,54 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/AdHocMessagePayload.swift",
+      "line": null,
+      "symbol": "AdHocMessagePayload",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/AddDevicePayload.swift",
+      "line": null,
+      "symbol": "AddDevicePayload",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/Clip/AddClipPayload.swift",
+      "line": null,
+      "symbol": "AddClipPayload",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/Clip/UpdateClipPayload.swift",
+      "line": null,
+      "symbol": "UpdateClipPayload",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/User/UserInfoPayload.swift",
+      "line": null,
+      "symbol": "UserInfoPayload",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/TechCentrixSDK.swift",
+      "line": 11,
+      "symbol": "TechCentrixSDK",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/TechCentrixSDK.swift",
+      "line": 182,
+      "symbol": "TechCentrixSDK.signOut(completion:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/hans92/Developer/techcentrix-ios-2.0"
+}

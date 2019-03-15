@@ -1,0 +1,6 @@
+$dokka.format:gfm
+$dokka.linkExtension:md
+
+com.techcentrix.sdk
+com.techcentrix.sdk.ui
+com.techcentrix.sdk.util

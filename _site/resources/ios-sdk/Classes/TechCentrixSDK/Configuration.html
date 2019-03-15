@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Configuration Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../../js/jquery.min.js" defer></script>
+    <script src="../../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/Configuration" class="dashAnchor"></a>
+    <a title="Configuration Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../../index.html"> Docs</a> (65% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../../index.html"> Reference</a>
+        <img id="carat" src="../../img/carat.png" />
+        Configuration Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../../Classes/TechCentrixSDK.html">TechCentrixSDK</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../../Classes/TechCentrixSDK/Configuration.html">– Configuration</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>Configuration</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Configuration</span></code></pre>
+
+                </div>
+              </div>
+            <p>Configuration struct used within the SDK.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SDK011TechCentrixA0C13ConfigurationV6ColorsV"></a>
+                    <a name="//apple_ref/swift/Struct/Colors" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SDK011TechCentrixA0C13ConfigurationV6ColorsV">Colors</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Color configuration struct for colors used within the SDK.</p>
+
+                        <a href="../../Classes/TechCentrixSDK/Configuration/Colors.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Colors</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SDK011TechCentrixA0C13ConfigurationV6ImagesV"></a>
+                    <a name="//apple_ref/swift/Struct/Images" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SDK011TechCentrixA0C13ConfigurationV6ImagesV">Images</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Image configuration struct for images used within the SDK.</p>
+
+                        <a href="../../Classes/TechCentrixSDK/Configuration/Images.html" class="slightly-smaller">See more</a>
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="kd">struct</span> <span class="kt">Images</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:3SDK011TechCentrixA0C13ConfigurationV8apiToken8hostName07productH06colors6imagesAESS_S2SSgAE6ColorsVAE6ImagesVtcfc"></a>
+                    <a name="//apple_ref/swift/Method/init(apiToken:hostName:productName:colors:images:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:3SDK011TechCentrixA0C13ConfigurationV8apiToken8hostName07productH06colors6imagesAESS_S2SSgAE6ColorsVAE6ImagesVtcfc">init(apiToken:hostName:productName:colors:images:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Initializes SDK Configuration struct.</p>
+
+<p>Product name, colors and images are optional. If not provided default will be used.</p>
+<div class="aside aside-precondition">
+    <p class="aside-title">Precondition</p>
+    <p><code>apiToken</code> can not be empty.</p>
+
+</div>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">public</span> <span class="nf">init</span><span class="p">(</span><span class="nv">apiToken</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">hostName</span><span class="p">:</span> <span class="kt">String</span><span class="p">,</span> <span class="nv">productName</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">,</span> <span class="nv">colors</span><span class="p">:</span> <span class="kt"><a href="../../Classes/TechCentrixSDK/Configuration/Colors.html">Colors</a></span> <span class="o">=</span> <span class="kt"><a href="../../Classes/TechCentrixSDK/Configuration/Colors.html">Colors</a></span><span class="p">(),</span> <span class="nv">images</span><span class="p">:</span> <span class="kt"><a href="../../Classes/TechCentrixSDK/Configuration/Images.html">Images</a></span> <span class="o">=</span> <span class="kt"><a href="../../Classes/TechCentrixSDK/Configuration/Images.html">Images</a></span><span class="p">())</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>apiToken</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Static API Token generated by TechCentrix backend</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>hostName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Host app name</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>productName</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Product name e.g. wristband, bottle</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>colors</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Color configuration struct for colors used within the SDK.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>images</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Image configuration struct for images used within the SDK.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-04-05)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

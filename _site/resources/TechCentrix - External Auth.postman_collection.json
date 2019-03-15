@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "e530f201-3986-443b-b07c-c9b4e7635da3",
+		"name": "TechCentrix - External Auth",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.datalyticz.com/user/api/auth/external",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{Server.API.Key-HERE}}"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": \"test1-external\",\n  \"email\": \"user1@techcentrix.com\",\n  \"firstName\": \"User1\"\n}"
+				},
+				"url": {
+					"raw": "https://api.datalyticz.com/user/api/auth/external",
+					"protocol": "https",
+					"host": [
+						"api",
+						"datalyticz",
+						"com"
+					],
+					"path": [
+						"user",
+						"api",
+						"auth",
+						"external"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "5cba048f-213c-4ec4-90d2-8f4e25f99926",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "41fc3922-3a6b-4300-b3ad-c5a896676be2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

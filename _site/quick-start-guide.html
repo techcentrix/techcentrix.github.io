@@ -1,0 +1,435 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.15.2 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Quick-Start Guide - TechCentrix SDK</title>
+<meta name="description" content="Integrate with our LED technology in few steps">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="TechCentrix SDK">
+<meta property="og:title" content="Quick-Start Guide">
+<meta property="og:url" content="http://localhost:4000/quick-start-guide.html">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/quick-start-guide.html">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="TechCentrix SDK Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<!--[if IE ]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">TechCentrix SDK</a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/quick-start-guide" >Quick-Start Guide</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/techcentrix/techcentrix-sdk-android/" >Android SDK</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://github.com/techcentrix/techcentrix-sdk-ios/" >iOS SDK</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://techcentrix.com" >Contact Us</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Quick-Start Guide</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/quick-start-guide#techcentrix-sdk-architecture" class="">SDK Architecture</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/quick-start-guide#dictionary" class="">Dictionary</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/quick-start-guide#backend-integration" class="">Backend Integration</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/quick-start-guide#mobile-integration" class="">Mobile integration</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Android SDK</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://github.com/techcentrix/techcentrix-sdk-android/" class="">SDK page</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/resources/android-sdk" class="">API Documentation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">iOS SDK</span>
+        
+
+        
+        <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://github.com/techcentrix/techcentrix-sdk-ios/" class="">SDK page</a></li>
+          
+            
+            
+
+            
+            
+
+            <li><a href="/resources/ios-sdk" class="">API Documentation</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+    
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Quick-Start Guide">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Quick-Start Guide
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Want to get access? <a href="mailto:info@techcentrix.com">Contact us</a>!</p>
+
+<h2 id="techcentrix-sdk-architecture">TechCentrix SDK Architecture</h2>
+
+<p><img src="https://github.com/techcentrix/techcentrix.github.io/raw/master/resources/TechCentrix%20SDK%20Architecture.jpg" alt="" />
+<a href="https://github.com/techcentrix/techcentrix.github.io/raw/master/resources/TechCentrix%20SDK%20Architecture.pdf">Better quality flow</a>.</p>
+
+<h2 id="dictionary">Dictionary</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Item</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>oneTimeToken</td>
+      <td>Token that needs to passed to TechCentrix SDK to sign in/up your user. It’s a one time token and has a short expiry date.</td>
+    </tr>
+    <tr>
+      <td>Server.API.Key</td>
+      <td>API key is used between your and TechCentrix’s server to generate <em>oneTimeToken</em>. It can be stored only on your server. Don’t store it in a mobile app, because of security reasons.</td>
+    </tr>
+    <tr>
+      <td>TechCentrixAppId</td>
+      <td>This Id used in <em>TechCentrixConfig</em>, so we can identify you on our side.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="backend-integration">Backend Integration</h2>
+<h3 id="integrate-your-backend-with-techcentrix-backend">Integrate your backend with TechCentrix backend</h3>
+
+<p>Every time your app starts TechCentrix module, it should ask your backend to authorize with TechCentrix backend. This REST call will sign up/in your user in our backend. In order to make it safe, this REST call needs to be signed by <em>Server.API.Key</em>. This key <strong>must be</strong> stored only on your backend. (Don’t store this key in your mobile application)</p>
+
+<p>For REST call preview, you can download Postman collection from <a href="https://github.com/techcentrix/techcentrix.github.io/raw/master/resources/TechCentrix%20-%20External%20Auth.postman_collection.json">here</a>.</p>
+
+<h3 id="auth-external">Auth External</h3>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>POST https://api.techcentrix.com/user/api/auth/external
+</code></pre></div></div>
+
+<p>Headers</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Authorization: Bearer Server.API.Key
+Content-Type: application/json
+</code></pre></div></div>
+
+<p>Request Body</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
+  "id": "user1-external", // unique id for that user. Could be same as in your database, or any other string
+  "email": "user1@techcentrix.com", // email address of user
+  "firstName": "User1Name" // first name of user signed in your application
+}
+</code></pre></div></div>
+<ul>
+  <li>Success Response:
+    <ul>
+      <li><strong>Code:</strong> 200</li>
+      <li><strong>Content:</strong> <code class="highlighter-rouge">eyJhbGciOiJIUzUxMiJ9.eyJqdGkiOiJjY2Y0MWNkYy1kNWY1LTRlMT...</code></li>
+    </ul>
+  </li>
+  <li>Error Response:
+    <ul>
+      <li><strong>Code:</strong> 401 Unauthorised</li>
+      <li><strong>Content:</strong> <code class="highlighter-rouge">{ message: "Invalid access token", errorCode: 4 }</code></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="mobile-integration">Mobile integration</h2>
+<p>TechCentrix SDK supports 2 mobile platforms: Android &amp; iOS.</p>
+
+<h3 id="android">Android</h3>
+<h4 id="requirements">Requirements</h4>
+<ul>
+  <li>Kotlin &amp; Java</li>
+  <li>Android 5.0 (API 21) or newer</li>
+  <li>project based on AndroidX libraries (old Android Support libraries are not supported)</li>
+</ul>
+
+<h4 id="api-documentation">API Documentation</h4>
+<p>We have more in-depth <a href="/resources/android-sdk">API Documentation</a>.</p>
+
+<h4 id="step-by-step-instructions">Step by step instructions</h4>
+<p>Follow these <a href="https://github.com/techcentrix/techcentrix-sdk-android/">instruction to integrate</a> your Android application.</p>
+
+<h3 id="ios">iOS</h3>
+<h4 id="requirements-1">Requirements</h4>
+<ul>
+  <li>Swift 5.0+</li>
+  <li>iOS 11+</li>
+</ul>
+
+<h4 id="api-documentation-1">API Documentation</h4>
+<p>We have more in-depth <a href="/resources/ios-sdk">API Documentation</a>.</p>
+
+<h4 id="step-by-step-instructions-1">Step by step instructions</h4>
+<p>Follow these <a href="https://github.com/techcentrix/techcentrix-sdk-ios">instruction to integrate</a> your iOS application.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2019 TechCentrix SDK. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script data-search-pseudo-elements defer src="https://use.fontawesome.com/releases/v5.7.1/js/all.js" integrity="sha384-eVEQC9zshBn0rFj4+TU78eNA19HMNigMviK/PU/FFjLXqa/GKPgX58rvt5Z8PLs7" crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+  </body>
+</html>

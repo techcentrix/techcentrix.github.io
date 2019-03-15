@@ -1,0 +1,37 @@
+main:
+  - title: "Quick-Start Guide"
+    url: /quick-start-guide
+  - title: "Android SDK"
+    url: https://github.com/techcentrix/techcentrix-sdk-android/
+  - title: "iOS SDK"
+    url: https://github.com/techcentrix/techcentrix-sdk-ios/
+  - title: "Contact Us"
+    url: https://techcentrix.com
+
+
+docs:
+
+- title: Quick-Start Guide
+  children:
+    - title: "SDK Architecture"
+      url: /quick-start-guide#techcentrix-sdk-architecture
+    - title: "Dictionary"
+      url: /quick-start-guide#dictionary
+    - title: "Backend Integration"
+      url: /quick-start-guide#backend-integration
+    - title: "Mobile integration"
+      url: /quick-start-guide#mobile-integration
+
+- title: Android SDK
+  children:
+    - title: "SDK page"
+      url: https://github.com/techcentrix/techcentrix-sdk-android/
+    - title: "API Documentation"
+      url: /resources/android-sdk
+
+- title: iOS SDK
+  children:
+    - title: "SDK page"
+      url: https://github.com/techcentrix/techcentrix-sdk-ios/
+    - title: "API Documentation"
+      url: /resources/ios-sdk
