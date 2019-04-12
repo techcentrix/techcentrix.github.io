@@ -1,15 +1,13 @@
 remote_theme: "mmistakes/minimal-mistakes@4.15.2"
 minimal_mistakes_skin: "default"
 
-# Google Analytics
-google_analytics: UA—136787524-4
-
 locale: "en-US"
 title: TechCentrix SDK
 description: Integrate with our LED technology in few steps
 
 plugins:
   - jekyll-include-cache
+  - jekyll-analytics
 
 defaults:
   - scope:
@@ -18,3 +16,8 @@ defaults:
       layout: splash
       sidebar:
         nav: "docs"
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA—136787524-4
+    anonymizeIp: false
