@@ -17,6 +17,7 @@ Item | Description
 oneTimeToken | Token that needs to passed to TechCentrix SDK to sign in/up your user. It's a one time token and has a short expiry date.
 Server.API.Key | API key is used between your and TechCentrix's server to generate _oneTimeToken_. It can be stored only on your server. Don't store it in a mobile app, because of security reasons.
 Mobile.API.Key | It's used in _TechCentrixConfig_, so we can identify you on our side.
+TechCentrix Config file | Excel file with Server.API.Key, Mobile.API.Key, Gradle & CocoaPods Access, Firebase Server Key etc. You can find a template [here](https://github.com/techcentrix/techcentrix.github.io/raw/master/resources/TechCentrix%20Config%20File%20-%20TEMPLATE.xlsx).
 
 ## Backend Integration
 ### Integrate your backend with TechCentrix backend
