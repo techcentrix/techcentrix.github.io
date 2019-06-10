@@ -44,7 +44,7 @@
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/TechCentrixSDK.swift",
-      "line": 182,
+      "line": 179,
       "symbol": "TechCentrixSDK.signOut(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
