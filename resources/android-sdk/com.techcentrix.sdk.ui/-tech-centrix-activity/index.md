@@ -1,4 +1,4 @@
-[android-sdk (1.0.0)](../../index.md) / [com.techcentrix.sdk.ui](../index.md) / [TechCentrixActivity](./index.md)
+[android-sdk (1.0.1)](../../index.md) / [com.techcentrix.sdk.ui](../index.md) / [TechCentrixActivity](./index.md)
 
 # TechCentrixActivity
 
