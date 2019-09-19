@@ -1,10 +1,16 @@
-[android-sdk (1.1.0)](../../index.md) / [com.techcentrix.sdk.ui](../index.md) / [TechCentrixActivity](./index.md)
+[android-sdk (1.2.0)](../../index.md) / [com.techcentrix.sdk.ui](../index.md) / [TechCentrixActivity](./index.md)
 
 # TechCentrixActivity
 
 `class TechCentrixActivity : AppCompatActivity`
 
 Represents main entry point to SDK UI.
+
+### Constructors
+
+| Name | Summary |
+|---|---|
+| [&lt;init&gt;](-init-.md) | `TechCentrixActivity()`<br>Represents main entry point to SDK UI. |
 
 ### Companion Object Functions
 

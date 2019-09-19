@@ -1,4 +1,4 @@
-[android-sdk (1.1.0)](../../index.md) / [com.techcentrix.sdk](../index.md) / [SDKConfig](index.md) / [mobileApiKey](./mobile-api-key.md)
+[android-sdk (1.2.0)](../../index.md) / [com.techcentrix.sdk](../index.md) / [SDKConfig](index.md) / [mobileApiKey](./mobile-api-key.md)
 
 # mobileApiKey
 
