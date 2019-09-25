@@ -1,57 +1,43 @@
 {
   "warnings": [
     {
-      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Extensions/ThirdParty/ScanDiscovery+Extensions.swift",
-      "line": 12,
-      "symbol": "ScanDiscovery.==(_:_:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.static",
-      "warning": "undocumented"
-    },
-    {
-      "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Extensions/ThirdParty/ScanDiscovery+Extensions.swift",
-      "line": 18,
-      "symbol": "ScanDiscovery.hash(into:)",
-      "symbol_kind": "source.lang.swift.decl.function.method.instance",
-      "warning": "undocumented"
-    },
-    {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/AdHocMessagePayload.swift",
-      "line": null,
+      "line": 18,
       "symbol": "AdHocMessagePayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/AddDevicePayload.swift",
-      "line": null,
+      "line": 19,
       "symbol": "AddDevicePayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/Clip/AddClipPayload.swift",
-      "line": null,
+      "line": 20,
       "symbol": "AddClipPayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/Clip/UpdateClipPayload.swift",
-      "line": null,
+      "line": 29,
       "symbol": "UpdateClipPayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/User/OneTimePasswordPayload.swift",
-      "line": null,
+      "line": 17,
       "symbol": "OneTimePasswordPayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/Shared/Model/Network/Payloads/User/UserInfoPayload.swift",
-      "line": null,
+      "line": 33,
       "symbol": "UserInfoPayload",
       "symbol_kind": "source.lang.swift.decl.extension",
       "warning": "undocumented"
@@ -65,7 +51,7 @@
     },
     {
       "file": "/Users/hans92/Developer/techcentrix-ios-2.0/SDK/TechCentrixSDK.swift",
-      "line": 169,
+      "line": 159,
       "symbol": "TechCentrixSDK.signOut(completion:)",
       "symbol_kind": "source.lang.swift.decl.function.method.static",
       "warning": "undocumented"
