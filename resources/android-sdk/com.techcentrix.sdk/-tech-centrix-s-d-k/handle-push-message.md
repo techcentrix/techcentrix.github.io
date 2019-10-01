@@ -1,4 +1,4 @@
-[android-sdk (1.2.0)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [handlePushMessage](./handle-push-message.md)
+[android-sdk (1.2.1)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [handlePushMessage](./handle-push-message.md)
 
 # handlePushMessage
 

@@ -1,4 +1,4 @@
-[android-sdk (1.2.0)](./index.md)
+[android-sdk (1.2.1)](./index.md)
 
 ### Packages
 
