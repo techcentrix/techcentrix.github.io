@@ -1,4 +1,4 @@
-[android-sdk (1.2.2)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [isTechCentrixPushMessage](./is-tech-centrix-push-message.md)
+[android-sdk (1.2.3)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [isTechCentrixPushMessage](./is-tech-centrix-push-message.md)
 
 # isTechCentrixPushMessage
 
