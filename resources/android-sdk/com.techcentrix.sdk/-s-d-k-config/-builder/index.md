@@ -1,4 +1,4 @@
-[android-sdk (1.2.1)](../../../index.md) / [com.techcentrix.sdk](../../index.md) / [SDKConfig](../index.md) / [Builder](./index.md)
+[android-sdk (1.2.2)](../../../index.md) / [com.techcentrix.sdk](../../index.md) / [SDKConfig](../index.md) / [Builder](./index.md)
 
 # Builder
 
