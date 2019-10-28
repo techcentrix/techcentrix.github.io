@@ -1,15 +1,13 @@
-[android-sdk (1.2.3)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [handlePushMessage](./handle-push-message.md)
+[android-sdk (1.3.1)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [handlePushMessage](./handle-push-message.md)
 
 # handlePushMessage
 
-`@JvmStatic fun handlePushMessage(message: RemoteMessage): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
+`@JvmStatic fun handlePushMessage(context: `[`Context`](https://developer.android.com/reference/android/content/Context.html)`, message: RemoteMessage): `[`Unit`](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html)
 
 Handles `RemoteMessage` received in `FirebaseMessagingService`.
 
 Call this method only if [isTechCentrixPushMessage](is-tech-centrix-push-message.md) returned `true` for passed in `message` object.
 
-### Exceptions
+### Parameters
 
-`IllegalArgumentException` - when `message` is not intended for TechCentrix SDK
-
-`IllegalStateException` - when SDK is not initialized
+`context` - Any Android [Context](https://developer.android.com/reference/android/content/Context.html) object to initialize SDK if needed

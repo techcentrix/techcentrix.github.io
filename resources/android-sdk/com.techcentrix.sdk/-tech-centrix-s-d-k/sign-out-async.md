@@ -1,8 +1,8 @@
-[android-sdk (1.2.3)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signOutAsync](./sign-out-async.md)
+[android-sdk (1.3.1)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signOutAsync](./sign-out-async.md)
 
 # signOutAsync
 
-`@JvmStatic @JvmOverloads fun signOutAsync(listener: `[`FutureListener`](../../com.techcentrix.sdk.util/-future-listener/index.md)`<`[`Void`](https://developer.android.com/reference/java/lang/Void.html)`?>? = null): `[`Future`](https://developer.android.com/reference/java/util/concurrent/Future.html)`<`[`Void`](https://developer.android.com/reference/java/lang/Void.html)`?>`
+`@JvmStatic @JvmOverloads fun signOutAsync(listener: `[`FutureListener`](../../com.techcentrix.sdk.util/-future-listener/index.md)`<`[`Void`](https://docs.oracle.com/javase/6/docs/api/java/lang/Void.html)`?>? = null): `[`Future`](https://docs.oracle.com/javase/6/docs/api/java/util/concurrent/Future.html)`<`[`Void`](https://docs.oracle.com/javase/6/docs/api/java/lang/Void.html)`?>`
 
 Signs out the current signed-in user asynchronously.
 
@@ -10,10 +10,6 @@ Signs out the current signed-in user asynchronously.
 
 `listener` - optional [FutureListener](../../com.techcentrix.sdk.util/-future-listener/index.md) will be notified when the user has finished signing out
 
-### Exceptions
-
-`IllegalStateException` - when SDK is not initialized
-
 **Return**
-[Future](https://developer.android.com/reference/java/util/concurrent/Future.html) representing this asynchronous operation
+[Future](https://docs.oracle.com/javase/6/docs/api/java/util/concurrent/Future.html) representing this asynchronous operation
 

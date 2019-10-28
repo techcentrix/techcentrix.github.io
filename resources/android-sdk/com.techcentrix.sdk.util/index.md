@@ -1,4 +1,4 @@
-[android-sdk (1.2.3)](../index.md) / [com.techcentrix.sdk.util](./index.md)
+[android-sdk (1.3.1)](../index.md) / [com.techcentrix.sdk.util](./index.md)
 
 ## Package com.techcentrix.sdk.util
 
@@ -6,4 +6,4 @@
 
 | Name | Summary |
 |---|---|
-| [FutureListener](-future-listener/index.md) | `interface FutureListener<V>`<br>A listener that is called back when a [Future](https://developer.android.com/reference/java/util/concurrent/Future.html) is done. |
+| [FutureListener](-future-listener/index.md) | A listener that is called back when a [Future](https://docs.oracle.com/javase/6/docs/api/java/util/concurrent/Future.html) is done.`interface FutureListener<V>` |

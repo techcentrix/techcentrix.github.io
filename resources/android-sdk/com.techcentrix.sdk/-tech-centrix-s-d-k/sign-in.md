@@ -1,4 +1,4 @@
-[android-sdk (1.2.3)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signIn](./sign-in.md)
+[android-sdk (1.3.1)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signIn](./sign-in.md)
 
 # signIn
 
@@ -9,10 +9,6 @@ Signs in/up a user with the given `oneTimeToken`.
 ### Parameters
 
 `oneTimeToken` - authentication token with a short expiry date
-
-### Exceptions
-
-`IllegalStateException` - when SDK is not initialized
 
 **Return**
 `true` if authentication was successful; `false` otherwise
