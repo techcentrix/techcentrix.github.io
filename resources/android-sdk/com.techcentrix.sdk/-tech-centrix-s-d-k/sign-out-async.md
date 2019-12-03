@@ -1,4 +1,4 @@
-[android-sdk (1.3.1)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signOutAsync](./sign-out-async.md)
+[android-sdk (1.3.2)](../../index.md) / [com.techcentrix.sdk](../index.md) / [TechCentrixSDK](index.md) / [signOutAsync](./sign-out-async.md)
 
 # signOutAsync
 
