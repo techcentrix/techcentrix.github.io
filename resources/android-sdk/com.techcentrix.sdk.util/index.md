@@ -1,4 +1,4 @@
-[android-sdk (1.3.4)](../index.md) / [com.techcentrix.sdk.util](./index.md)
+[android-sdk (1.4.2)](../index.md) / [com.techcentrix.sdk.util](./index.md)
 
 ## Package com.techcentrix.sdk.util
 
